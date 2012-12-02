@@ -1,0 +1,52 @@
+{
+   "abstract" : "SNMP extension which captures network traffic",
+   "author" : [
+      "Sebastien Aperghis-Tramoni <sebastien@aperghis.net>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "open_source"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "netsnmp-pcap-perl",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Getopt::Long" : "0",
+            "Net::Pcap" : "0",
+            "NetSNMP::ASN" : "0",
+            "NetSNMP::agent" : "0",
+            "POE" : "0",
+            "POE::Component::NetSNMP::agent" : "0.400",
+            "POE::Component::Pcap" : "0",
+            "Pod::Usage" : "0",
+            "Proc::Daemon" : "0",
+            "SNMP::ToolBox" : "0.03",
+            "Sys::Syslog" : "0",
+            "Test::More" : "0.45"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.95"
+}
